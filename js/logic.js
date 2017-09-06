@@ -38,3 +38,25 @@ Ejemplo
 primeFactors(20) // [2, 2 ,5] es decir, 2*2*5 = 20
 primeFactors(330) // [2, 3, 5, 11] es decir, 2*3*5*11 = 330
 */
+var factors = [];
+function factorsOfNumber(number){
+  for(var i=2; i<=number; i++){
+    if (number == 1) {
+      console.log(factors);
+      return factors;
+    }else if (number%i == 0) {
+      factors.push(i);
+      number = number/i;
+      return factorsOfNumber(number);
+    }
+  }
+};
+
+//PRUEBAS
+factorsOfNumber(20);
+console.log("factors of Number 20: ");
+console.log(factors);
+var factors = [];
+factorsOfNumber(330);
+console.log("factors of Number 330: ");
+console.log(factors);
