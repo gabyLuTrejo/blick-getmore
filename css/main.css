@@ -5,3 +5,9 @@ Button: #f7971c;
 Square text: #9b9b9b;
 Footer Color text: #d8d8d8;
 */
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
