@@ -1,0 +1,39 @@
+/*
+Titles: #e66700;
+Subtitles: #444444;
+Button: #f7971c;
+Square text: #9b9b9b;
+Footer Color text: #d8d8d8;
+*/
+
+li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+.orange1 {
+  border: 1px solid #e66700;
+  border-radius: 50px;
+  background-color: #e66700;
+  padding: 5px;
+}
+#city{
+  background-image: url(../assets/img-city.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 45vh;
+}
+.top-5 {
+  margin-top: 5%;
+}
+.title-h2 {
+  font-size: -webkit-xxx-large;
+}
+.subtitle-h4 {
+  font-weight: lighter;
+  font-size: xx-large;
+}
+.white-text{
+  color: white;
+}
